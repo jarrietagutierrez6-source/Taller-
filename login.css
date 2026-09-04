@@ -1,0 +1,38 @@
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+label{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: rgb(40, 42, 70)
+}
+input{
+    width: 100%;
+    padding: 0.6rem;
+    border: 1.5px solid snow;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+input.error{
+    border-color: brown;
+    background-color: aliceblue;
+}
+
+.error-message{
+    color: brown; 
+    font-size: 0.8rem; 
+    margin-top: 0.2rem;
+    display: block;
+}
+.btn-primary{
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer; width: 100%;
+}
+.btn-primary:hover{background-color: blue;}
